@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBNX_DRM_ALLOCATOR
+	bool "nx_drm_allocator"
+	help
+	  Support renderer
