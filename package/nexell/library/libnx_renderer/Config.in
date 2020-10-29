@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBNX_RENDERER
+	bool "libnx_renderer"
+	help
+	  Support renderer
