@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LIBDRM_NEXELL
+	bool "libdrm_nexell"
+	select BR2_PACKAGE_LIBPCIACCESS
+	help
+	  Support drm_nexell
