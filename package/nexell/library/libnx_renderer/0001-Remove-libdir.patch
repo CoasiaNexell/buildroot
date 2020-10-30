@@ -1,0 +1,26 @@
+From 67a7a855d72504cff680e0da70e0b25405a9627a Mon Sep 17 00:00:00 2001
+From: "Youngdo, Lee" <ydlee@coasianexell.com>
+Date: Thu, 22 Oct 2020 13:43:27 +0900
+Subject: [PATCH] Remove libdir
+
+Signed-off-by: Youngdo, Lee <ydlee@coasianexell.com>
+---
+ Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index b2f8a69..0f11193 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -6,7 +6,7 @@ AM_CFLAGS = \
+ 
+ libnx_renderer_la_LTLIBRARIES = libnx_renderer.la
+ libnx_renderer_ladir = ${libdir}
+-libnx_renderer_la_LDFLAGS = -L${libdir}
++#libnx_renderer_la_LDFLAGS = -L${libdir}
+ libnx_renderer_la_LIBADD = -ldrm -lkms
+ 
+ libnx_renderer_la_SOURCES = \
+-- 
+2.17.1
+
