@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBNX_MALI
+	bool "mali"
+	help
+	  Support Mali
